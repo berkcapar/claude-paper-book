@@ -1,0 +1,160 @@
+{
+  "state": {
+    "asOf": "2026-09-30",
+    "benchmark": {
+      "shares": 65.18225,
+      "startPrice": 767.08,
+      "ticker": "SPY"
+    },
+    "cash": 17536.28,
+    "pendingOrders": [],
+    "positions": [
+      {
+        "avgCost": 230.47,
+        "lastPrice": 228.38,
+        "name": "NVIDIA",
+        "openedAt": "2026-09-30",
+        "shares": 32,
+        "stop": 212,
+        "target": 275,
+        "thesis": "Earnings rising faster than the price: about 19x forward, near a 10-year low multiple, with a record $150B buyback and the stock just under its $236.54 high. A breakout above that high is the next leg.",
+        "ticker": "NVDA"
+      },
+      {
+        "avgCost": 344.1,
+        "lastPrice": 344.08,
+        "name": "Alphabet",
+        "openedAt": "2026-09-30",
+        "shares": 22,
+        "stop": 318,
+        "target": 400,
+        "thesis": "About 16% below its high at roughly 17x trailing earnings after EPS doubled. Cheap megacap AI platform with Strong Buy consensus. Earnings Oct 28.",
+        "ticker": "GOOGL"
+      },
+      {
+        "avgCost": 513,
+        "lastPrice": 512.9,
+        "name": "Microsoft",
+        "openedAt": "2026-09-30",
+        "shares": 14,
+        "stop": 475,
+        "target": 575,
+        "thesis": "Up about 39% this quarter on cloud and AI, 7% below its high, targets rising. Riding the trend into the late-October report.",
+        "ticker": "MSFT"
+      },
+      {
+        "avgCost": 162.91,
+        "lastPrice": 162.88,
+        "name": "ExxonMobil",
+        "openedAt": "2026-09-30",
+        "shares": 40,
+        "stop": 151,
+        "target": 178,
+        "thesis": "Oil up sharply in September and refining margins strong; TD Cowen expects a Q3 beat and targets $180. Also hedges the tech exposure against war escalation. Earnings Oct 30.",
+        "ticker": "XOM"
+      },
+      {
+        "avgCost": 955.02,
+        "lastPrice": 950.66,
+        "name": "GE Vernova",
+        "openedAt": "2026-09-30",
+        "shares": 4,
+        "stop": 880,
+        "target": 1100,
+        "thesis": "AI power buildout leader about 20% below its $1,196 high, RSI near 47. A pullback entry ahead of Oct 28 earnings. Review before the report.",
+        "ticker": "GEV"
+      }
+    ],
+    "rules": [
+      "Starting capital $50,000. Individual US stocks only: no ETFs, shorting, options or margin.",
+      "Max 20% of the book in one stock.",
+      "Target 5-15% cash in normal times; up to 40% while waiting on a clear catalyst.",
+      "Decisions are made after the close and filled at the next trading day's opening price. No trading at a price already seen.",
+      "Daily review is light: mark prices, check stops, targets, earnings dates and red-flag news. The default outcome is no trade.",
+      "New positions are opened mainly in the weekly review (Saturday). At most 3 new positions per week.",
+      "Hold each position at least 5 trading days, unless its stop is hit or its thesis breaks on real news.",
+      "Every position gets a stop and a target at entry. A close below the stop means exit at the next open, or a written reason to hold.",
+      "No new full-size position the day before that company's earnings. Earnings bets are sized at 5% or less, on purpose.",
+      "Prices and facts come from primary or established sources (exchange data providers, company filings, Reuters, Bloomberg, CNBC). Promotional and AI-prediction sites are ignored. X posts are idea leads only and must be confirmed.",
+      "No commissions or slippage are modeled."
+    ],
+    "spyLast": 762.48,
+    "startDate": "2026-09-30",
+    "startingCash": 50000,
+    "watchlist": [
+      {
+        "note": "Fiscal Q4 out after the Sep 30 close: revenue $54.2B vs about $51.1B expected, EPS $33.42 vs $31.61, Q1 guide $61.5B vs about $57.0B. Clear beat and raise. Buy only if the Oct 1 session confirms (holds a gap up into the close) rather than fading it.",
+        "ticker": "MU"
+      },
+      {
+        "note": "About 29% below its $495 high and drifting sideways. Forward P/E near 20 is attractive, but wait for the trend to turn before buying.",
+        "ticker": "AVGO"
+      },
+      {
+        "note": "Up about 29% in September on its AI agent launch. Extended after that run; a pullback toward support would be the entry.",
+        "ticker": "META"
+      }
+    ]
+  },
+  "trades": [
+    {
+      "date": "2026-09-30",
+      "exitPlan": "Stop at $212 (about 8% down). First target $275.",
+      "price": 230.47,
+      "reasoning": "Best risk/reward among the AI leaders. Revenue roughly doubled while the stock rose only about 24% this year, so the forward P/E compressed to around 19x, near its lowest in a decade. A record $150B buyback adds a steady bid. Price is just under the $236.54 52-week high with the daily trend intact; a clean break above that level would likely pull in momentum buyers. Also a read-through beneficiary if Micron's results tonight confirm AI memory demand.",
+      "seq": 2,
+      "shares": 32,
+      "side": "BUY",
+      "ticker": "NVDA"
+    },
+    {
+      "date": "2026-09-30",
+      "exitPlan": "Stop at $880. Target $1,100. Earnings Oct 28: decide the day before whether to hold through, trim, or add.",
+      "price": 955.02,
+      "reasoning": "Starter position (~8%) in the power side of the AI buildout. GE Vernova is about 20% off its $1,196 high after a summer pullback, with RSI near 47 so it is not overbought. Orders keep running ahead of sales, Q2 revenue grew 22%, and Jefferies holds a $1,185 target. Valuation is debated (some call it fully valued), which is why the size is small.",
+      "seq": 4,
+      "shares": 4,
+      "side": "BUY",
+      "ticker": "GEV"
+    },
+    {
+      "date": "2026-09-30",
+      "exitPlan": "Stop at $318 (about 8% down). Target $400, just under the $408.61 high. Earnings Oct 28: decide the day before whether to hold through or trim.",
+      "price": 344.1,
+      "reasoning": "Replaces the Nasdaq-100 ETF as a direct tech holding. Alphabet sits about 16% below its $408.61 high while earnings per share more than doubled over the past year, leaving it at roughly 17x trailing earnings, cheap for a megacap AI platform. Communication services was one of the stronger groups today, the stock closed up about 1% and traded higher after hours. Analyst consensus is Strong Buy with an average target near $429. Risk: early reviews of the new Gemini model are mixed, so a weak AI narrative is what would prove this wrong.",
+      "seq": 5,
+      "shares": 22,
+      "side": "BUY",
+      "ticker": "GOOGL"
+    },
+    {
+      "date": "2026-09-30",
+      "exitPlan": "Stop at $475 (about 7% down). Target $575, near the consensus target. Earnings around Oct 28.",
+      "price": 513,
+      "reasoning": "Momentum pick. Microsoft rose about 39% this quarter, on track for its best quarter since 1991, driven by cloud and AI demand, and it closes the quarter only about 7% below its $553.72 high. Piper Sandler just raised its target to $610. Strong trends into a quarter-end tend to carry into the next earnings report, which is the window this trade is built for. What would prove it wrong: a sharp reversal on heavy volume or a cloud growth slowdown in the October report.",
+      "seq": 6,
+      "shares": 14,
+      "side": "BUY",
+      "ticker": "MSFT"
+    },
+    {
+      "date": "2026-09-30",
+      "exitPlan": "Stop at $151 (about 7% down). Target $178, near the $176 high. Earnings Oct 30. Exit fast if a US-Iran deal knocks oil sharply lower.",
+      "price": 162.91,
+      "reasoning": "Replaces the energy ETF with the best single name. Oil rose about 12-14% in September on stalled US-Iran talks and tight fuel supplies, and refining margins are very strong. TD Cowen expects Exxon's Q3 to beat consensus on refining strength and raised its target to $180 with a Buy rating. The stock is below its $176.41 high, so there is room to run into the Oct 30 report. It also balances the book: if the war escalates and tech sells off, energy should rise.",
+      "seq": 7,
+      "shares": 40,
+      "side": "BUY",
+      "ticker": "XOM"
+    }
+  ],
+  "snapshots": [
+    {
+      "cash": 17536.28,
+      "date": "2026-09-30",
+      "equity": 49912.64,
+      "note": "Day one. Stocks faded into the close after a cooler August PCE reading and the S&P 500 finished September with a monthly loss as long-term yields stayed near multi-decade highs; oil sits near $100 with the Iran war in its eighth month. Opened five individual stocks (NVDA, GOOGL, MSFT, XOM, GEV) late in the session, about 65% invested with 35% cash held back; the book is marked at the official closes, slightly below the entry prices. After the bell Micron beat on revenue and EPS and guided Q1 revenue well above expectations, a positive read for AI hardware including NVDA. Watching tomorrow's Micron reaction for a possible entry, and planning ahead for GOOGL, MSFT and GEV reporting around Oct 28 and XOM on Oct 30.",
+      "spyValue": 49700.16
+    }
+  ]
+}
